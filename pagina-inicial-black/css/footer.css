@@ -1,0 +1,237 @@
+#external-footer-container {
+	width: 100% !important;
+	display: flex;
+	padding: 30px 20px;
+	box-sizing: border-box !important;
+	margin-top: 45px !important;
+	border-top: 5px solid #EE4D2D;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #fff;
+}
+
+#footer-divisor {
+	width: 100% !important;
+	height: 8px !important;
+	display: none !important;
+	min-height: 8px !important;
+	max-height: 8px !important;
+	background-color: #EE4D2D !important;
+}
+
+#footer-logo {
+	width: 100%;
+	max-width: 300px;
+	object-fit: contain;
+	margin-bottom: 45px;
+}
+
+#external-footer {
+	gap: 30px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: start;
+	justify-content: space-around;
+}
+
+#external-footer .footer-section {
+	display: flex;
+	max-width: 300px;
+	text-align: left;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.footer-section .section-title, .footer-section .contact-method, .footer-section .section-menu {
+	width: 100%;
+	color: #EE4D2D;
+	font-weight: 600;
+}
+
+.footer-section .section-title {
+    font-size: 20px;
+	text-align: center !important;
+	font-weight: 700 !important;
+    margin-bottom: 15px;
+	text-transform: capitalize;
+}
+
+.footer-section .contact-method, .footer-section .section-menu {
+	color: black;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.footer-section.contact {align-items: start !important;}
+
+.footer-section.contact .contact-whatsapp {
+	cursor: pointer;
+	display: flex;
+	padding: 5px 10px;
+	transition: all ease-in-out 0.25s;
+	margin-top: 15px;
+	align-items: center;
+	border-radius: 10px;
+	justify-content: center;
+	background-color: #EE4D2D;
+}
+
+.footer-section.contact .contact-whatsapp:hover {background-color: #6e1d61;}
+
+.footer-section.contact .contact-whatsapp i {
+	color: #fff;
+	font-size: 38px;
+	margin-right: 10px;
+}
+
+.footer-section.contact .contact-whatsapp div {
+	display: flex;
+	align-items: start;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.footer-section.contact .contact-whatsapp div h1, .footer-section.contact .contact-whatsapp div h2 {
+	color: #fff;
+	margin: 0px !important;
+	line-height: 1.25;
+	font-weight: 600;
+}
+
+.footer-section.contact .contact-whatsapp div h1 {
+	font-size: 15px;
+}
+
+.footer-section.contact .contact-whatsapp div h2 {
+	font-size: 16px;
+}
+
+.footer-section.contact .social-media {
+	color: black;
+	display: flex;
+	font-size: 15px;
+	margin-top: 15px;
+	font-weight: 500;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.footer-section.contact .social-media div {
+	gap: 12.5px;
+	display: flex;
+	margin-top: 5px;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-section.contact .social-media div i {
+	color: #fff;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	display: flex;
+	font-size: 18px;
+	transition: all ease-in-out 0.25s;
+	align-items: center;
+	border-radius: 50%;
+	justify-content: center;
+	background-color: #EE4D2D;
+}
+
+.footer-section .section-menu {
+	cursor: pointer;
+	font-size: 15px;
+	transition: all ease-in-out 0.25s;
+}
+
+.footer-section .section-menu:hover {color: #EE4D2D;}
+
+.footer-section.newsletter {align-items: start !important;}
+
+.footer-section.newsletter .subtitle {
+	color: black;
+	font-size: 15px;
+	line-height: 1.35;
+	font-weight: 600;
+}
+
+.footer-section.newsletter input {
+	width: 100%;
+	border: 1px solid #d7d7d7;
+	padding: 10px 20px;
+	font-size: 15px;
+	box-sizing: border-box !important;
+	margin-top: 10px;
+	font-weight: 500;
+	border-radius: 25px;
+}
+
+.footer-section.newsletter input:focus {
+	border: 2px solid #EE4D2D;
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.footer-section.newsletter button {
+	color: #fff;
+	border: none !important;
+	display: flex;
+	padding: 10px 20px;
+	font-size: 14px;
+	transition: all ease-in-out 0.25s;
+	margin-top: 15px;
+	font-weight: 600;
+	align-items: center;
+	border-radius: 25px;
+	justify-content: center;
+	background-color: #EE4D2D;
+}
+
+.footer-section.newsletter button:hover {background-color: #6e1d61;}
+
+.footer-section.payment-methods {max-width: 350px !important;}
+
+.footer-section.payment-methods .section-title {margin-bottom: 5px;}
+
+.footer-section.payment-methods .section-title.certified {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.footer-section.payment-methods .payment-method {
+	width: 100%;
+	max-width: 350px;
+	object-fit: contain;
+}
+
+.footer-section.payment-methods .certification {
+	width: 100%;
+	max-width: 110px;
+	object-fit: contain;
+}
+
+#footer-copyright {
+	color: black;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 45px;
+	font-weight: 600;
+}
+
+@media screen and (max-width: 928px) {
+	.footer-section.newsletter {align-items: center !important;}
+}
+
+@media screen and (max-width: 728px) {
+	#footer-copyright {margin-top: 45px;}
+}
+
+@media screen and (max-width: 528px) {
+	#footer-logo {margin-bottom: 30px;}
+
+	.footer-section.contact {align-items: center !important;}
+}

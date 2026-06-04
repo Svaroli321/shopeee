@@ -1,0 +1,45 @@
+.navbar-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(-180deg,#f53d2d,#f63);
+}
+
+.navbar {
+	width: 100%;
+	display: flex;
+	padding: 10px 5px !important;
+	max-width: 1280px !important;
+	user-select: none !important;
+    align-items: center;
+    justify-content: center;
+	background: linear-gradient(-180deg,#f53d2d,#f63);
+}
+
+.navbar span {cursor: pointer !important;}
+
+.navbar-logo {
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navbar-icons {
+	gap: 10px;
+	display: flex;
+}
+
+.navbar-icon.menu {font-variation-settings: 'FILL' 0, 'wght' 700, 'GRAD' 200, 'opsz' 48;}
+.navbar-icon.search, .navbar-icon.shopping-bag {font-variation-settings: 'FILL' 0, 'wght' 600, 'GRAD' -25, 'opsz' 48;}
+
+.navbar-icon {
+	color: #fff;
+	font-size: 35px;
+	font-family: 'Material Symbols Outlined' !important;
+}
+
+@media (max-width: 368px) {
+	.navbar-logo {height: 35px;}
+
+	.navbar-icon {font-size: 30px;}
+}

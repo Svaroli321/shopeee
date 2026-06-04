@@ -1,0 +1,28 @@
+@import url('../../../css2-1');
+
+@font-face {
+	src: url('../fonts/HvnIconFont.woff2') format('woff2');
+	font-style: normal;
+	font-weight: normal;
+	font-family: 'hvn-icons';
+	font-display: block
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    font-family: 'Red Hat Display' !important;
+}
+
+#maincontent {
+
+	width: 100%;
+	
+	min-height: 100vh;
+	box-sizing: border-box !important;
+}
+
+@media (max-width: 368px) {
+	.store-container {padding: 0px 10px;}	
+}
